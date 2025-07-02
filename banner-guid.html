@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Banner Customization Guide (Canva)</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+
+            font-family: 'Montserrat', sans-serif;
+
+            background-color: #f8fafc;
+
+        }
+
+        h1, h2, h3 {
+
+            font-family: 'Archivo Black', sans-serif;
+
+        }
+
+        .brand-dark-green-bg { background-color: #4e7c59; }
+
+        .brand-dark-green-text { color: #4e7c59; }
+
+        .brand-soft-green-bg { background-color: #a1c3ad; }
+
+        .brand-soft-green-text { color: #a1c3ad; }
+
+        .brand-gray-text { color: #808080; }
+
+        .chart-container {
+
+            position: relative;
+
+            width: 100%;
+
+            max-width: 400px;
+
+            margin-left: auto;
+
+            margin-right: auto;
+
+            height: 320px;
+
+            max-height: 400px;
+
+        }
+
+        .flowchart-step {
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            text-align: center;
+
+            position: relative;
+
+        }
+
+        .flowchart-arrow::after {
+
+            content: '▼';
+
+            font-size: 2rem;
+
+            color: #a1c3ad;
+
+            position: absolute;
+
+            left: 50%;
+
+            transform: translateX(-50%);
+
+            bottom: -2.5rem;
+
+        }
+
+    </style>
+
+</head>
+
+<body class="text-gray-800">
+
+
+    <header class="brand-dark-green-bg text-white text-center py-12 px-4">
+
+        <h1 class="text-4xl md:text-5xl uppercase tracking-wider">Roll-Up Banner Customization Guide</h1>
+
+        <p class="mt-4 text-lg font-light max-w-3xl mx-auto">This guide helps you customize banner templates in Canva while keeping the design aligned with our brand identity.</p>
+
+    </header>
+
+
+    <main class="container mx-auto p-4 md:p-8">
+
+        
+
+        <section id="getting-started" class="my-12">
+
+            <h2 class="text-3xl brand-dark-green-text text-center mb-8">1. Getting Started</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+
+                <div class="bg-white rounded-lg shadow-md p-6">
+
+                    <h3 class="text-2xl brand-dark-green-text mb-4">Tools & Requirements</h3>
+
+                    <ul class="space-y-4">
+
+                        <li class="flex items-start"><span class="text-2xl mr-3 brand-soft-green-text">✔️</span> <div><span class="font-bold">Canva Account:</span> A free account is all you need to get started.</div></li>
+
+                        <li class="flex items-start"><span class="text-2xl mr-3 brand-soft-green-text">🔗</span> <div><span class="font-bold">Template Link:</span> Click the link and select "Use Template" to create your editable copy.</div></li>
+
+                        <li class="flex items-start"><span class="text-2xl mr-3 brand-soft-green-text">🎨</span> <div><span class="font-bold">Brand Assets:</span> Have your logos, fonts, and primary colors ready.</div></li>
+
+                        <li class="flex items-start"><span class="text-2xl mr-3 brand-soft-green-text">🤝</span> <div><span class="font-bold">Partner Logos:</span> If applicable, have partner logos available for upload.</div></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center justify-center h-full">
+
+                    <div class="text-8xl mb-4">🚀</div>
+
+                    <h3 class="text-2xl brand-dark-green-text">You're Ready to Go!</h3>
+
+                    <p class="text-center mt-2 brand-gray-text">Once you have these items, you can begin the customization process.</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="customization" class="my-12">
+
+            <h2 class="text-3xl brand-dark-green-text text-center mb-8">2. Core Customization Steps</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <div class="bg-white rounded-lg shadow-md p-6">
+
+                    <div class="text-5xl mb-4">✏️</div>
+
+                    <h3 class="text-xl font-bold brand-dark-green-text mb-2">Text Content</h3>
+
+                    <p class="brand-gray-text">Replace placeholder text with your organization's name, slogan, and event info. Keep it concise and readable.</p>
+
+                </div>
+ <div class="bg-white rounded-lg shadow-md p-6 md:col-span-2 lg:col-span-1">
+
+                    <div class="text-5xl mb-4">🎨</div>
+
+                    <h3 class="text-xl font-bold brand-dark-green-text mb-2">Colors & Fonts</h3>
+
+                    <p class="brand-gray-text mb-4">Apply the brand's visual identity consistently.</p>
+
+                    <div class="flex space-x-4 mb-4">
+
+                        <div class="w-10 h-10 rounded-full brand-dark-green-bg" title="Dark Green: #4e7c59"></div>
+
+                        <div class="w-10 h-10 rounded-full brand-soft-green-bg" title="Soft Green: #a1c3ad"></div>
+
+                        <div class="w-10 h-10 rounded-full bg-white border" title="White: #ffffff"></div>
+
+                        <div class="w-10 h-10 rounded-full bg-gray-400" title="Gray: #808080"></div>
+
+                    </div>
+
+                    <div class="text-sm">
+
+                        <p><strong class="brand-dark-green-text">Titles:</strong> Archivo Black</p>
+
+                        <p><strong class="brand-dark-green-text">Body:</strong> Montserrat</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="finalizing" class="my-12">
+
+            <h2 class="text-3xl brand-dark-green-text text-center mb-8">3. Finalizing Your Banner</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+
+                 <div class="bg-white rounded-lg shadow-md p-6">
+
+                    <h3 class="text-2xl brand-dark-green-text mb-4 text-center">Final Review Checklist</h3>
+
+                    <p class="text-center brand-gray-text mb-4">This chart shows the key areas to review before exporting. Hover over a segment for details.</p>
+
+                    <div class="chart-container">
+
+                        <canvas id="reviewChecklistChart"></canvas>
+
+                    </div>
+
+                </div>
+
+                <div class="bg-white rounded-lg shadow-md p-6">
+
+                    <h3 class="text-2xl brand-dark-green-text mb-4">Downloading for Print</h3>
+
+                     <ul class="space-y-4">
+
+                        <li class="flex items-start"><span class="text-2xl mr-3 brand-soft-green-text">⬇️</span> <div><span class="font-bold">Format:</span> Select "PDF Print" for the highest quality output suitable for professional printing.</div></li>
+
+                        <li class="flex items-start"><span class="text-2xl mr-3 brand-soft-green-text">✂️</span> <div><span class="font-bold">Crop Marks & Bleed:</span> Enable this option if required by your print provider. This ensures no white edges after trimming.</div></li>
+
+                        <li class="flex items-start"><span class="text-2xl mr-3 brand-soft-green-text">🔍</span> <div><span class="font-bold">100% Preview:</span> Before downloading, zoom in to 100% to check for any pixelation or alignment issues.</div></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        
+
+        <section id="process-flow" class="my-16">
+
+            <h2 class="text-3xl brand-dark-green-text text-center mb-12">Complete Customization Flow</h2>
+
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-16 md:space-y-0 md:space-x-4">
+
+                <div class="flowchart-step flowchart-arrow w-48 h-24">
+
+                    <div class="p-4 bg-white rounded-lg shadow-md border-2 border-green-200">
+
+                        <strong class="brand-dark-green-text">1. Open Template</strong>
+
+                        <p class="text-xs brand-gray-text">Start with the provided link.</p>
+
+                    </div>
+
+                </div>
+
+                 <div class="flowchart-step flowchart-arrow w-48 h-24">
+
+                    <div class="p-4 bg-white rounded-lg shadow-md border-2 border-green-200">
+
+                        <strong class="brand-dark-green-text">2. Customize</strong>
+
+                        <p class="text-xs brand-gray-text">Edit text, logos, colors & images.</p>
+
+                    </div>
+
+                </div>
+
+                <div class="flowchart-step flowchart-arrow w-48 h-24">
+
+                    <div class="p-4 bg-white rounded-lg shadow-md border-2 border-green-200">
+
+                        <strong class="brand-dark-green-text">3. Review</strong>
+
+                        <p class="text-xs brand-gray-text">Check alignment, spelling & quality.</p>
+
+                    </div>
+
+                </div>
+
+                 <div class="flowchart-step w-48 h-24">
+
+                    <div class="p-4 brand-dark-green-bg text-white rounded-lg shadow-xl">
+
+                        <strong class="text-white">4. Download</strong>
+
+                        <p class="text-xs opacity-80">Export as a Print PDF.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+    
+
+    <footer class="bg-gray-800 text-white text-center p-6 mt-12">
+
+        <p>Roll-Up Banner Customization Guide | Version 1.0 – July 2025</p>
+
+    </footer>
+
+
+    <script>
+
+        function wrapLabel(str, maxWidth) {
+
+            if (str.length <= maxWidth) {
+
+                return str;
+
+            }
+
+            const words = str.split(' ');
+
+            const lines = [];
+
+            let currentLine = '';
+
+            for (const word of words) {
+
+                if ((currentLine + word).length > maxWidth && currentLine.length > 0) {
+
+                    lines.push(currentLine.trim());
+
+                    currentLine = '';
+
+                }
+
+                currentLine += word + ' ';
+
+            }
+
+            lines.push(currentLine.trim());
+
+            return lines;
+
+        }
+
+
+        const reviewCtx = document.getElementById('reviewChecklistChart');
+
+        const originalLabels = [
+
+            'Text Size & Readability',
+
+            'Logo Placement & Clarity',
+
+            'Margins & Alignment',
+
+            'Print Preview at 100%'
+
+        ];
+
+
+        const processedLabels = originalLabels.map(label => wrapLabel(label, 16));
+
+
+        new Chart(reviewCtx, {
+
+            type: 'doughnut',
+
+            data: {
+
+                labels: processedLabels,
+
+                datasets: [{
+
+                    label: 'Review Checklist',
+
+                    data: [25, 25, 25, 25],
+
+                    backgroundColor: [
+
+                        '#4e7c59',
+
+                        '#a1c3ad',
+
+                        '#808080',
+
+                        '#d1d5db' 
+
+                    ],
+
+                    borderColor: '#f8fafc',
+
+                    borderWidth: 4,
+
+                    hoverOffset: 8
+
+                }]
+
+            },
+
+            options: {
+
+                responsive: true,
+
+                maintainAspectRatio: false,
+
+                plugins: {
+
+                    legend: {
+
+                        position: 'bottom',
+
+                        labels: {
+
+                             font: {
+
+                                family: "'Montserrat', sans-serif",
+
+                                size: 12
+
+                            }
+
+                        }
+
+                    },
+
+                    tooltip: {
+
+                        callbacks: {
+
+                            title: function(tooltipItems) {
+
+                                const item = tooltipItems[0];
+
+                                let label = item.chart.data.labels[item.dataIndex];
+
+                                if (Array.isArray(label)) {
+
+                                  return label.join(' ');
+
+                                } else {
+
+                                  return label;
+
+                                }
+
+                            }
+
+                        }
+
+                    }
+
+                },
+
+                cutout: '60%'
+
+            }
+
+        });
+
+    </script>
+
+</body>
+
+</html>
+
+
